@@ -1,0 +1,127 @@
+@font-face {
+    font-family:rubik ;
+    src: url(../fuentes/Climate_Crisis/ClimateCrisis-Regular-VariableFont_YEAR.ttf);
+    color: hsl(0, 45%, 49%);
+}
+@font-face {
+    font-family:otra ;
+    src: url(../fuentes/Rubik_Iso/RubikIso-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.parrafo {
+    font-size: 42pt;
+    line-height: 62px;
+    font-family: 'rubik';
+    text-align: right;
+    text-justify: distribute-all-lines;
+    background-color: hsl(0, 40%, 53%)
+}
+.cabecero {
+    margin-top: 0px;
+    background-color: hsl(0, 0%, 0%);
+    size: 0px;
+    height: 55px;
+
+}
+.logo {
+    padding: 0;
+    float: left;
+}
+.cabecero menu {
+    float: inherit;
+
+}
+.menu {
+  padding-left: 628px; 
+  float: right;
+  margin: 24px;
+  font-family: 'Rubik';
+  font-size: 18px;
+}
+.menu li{
+  display: inline;
+  list-style: none;
+}
+.menu td {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px;
+
+}
+.banner {
+  padding-top: 6px; 
+  background-image: url(../img/imagendeprueba.jpeg);  
+  align-items: center;
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-size: contain;
+
+}
+.banner h1 {
+    font-family: 'otra';
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    padding: 150px 50px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: row;
+    height: 10em;
+    margin right:5%;
+    margin left:5%;
+}
+.seccizq {
+    
+  /*  margin-left: 50px;
+    margin-right: 50%; */
+   /* width: 70%;*/
+   margin-left: auto;
+   margin-right: auto;
+}
+.asside {
+   /* margin-right: 50px;
+    margin-right: 50%; */
+    margin: right:19%; 
+    float: right;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.asside h2 {
+    
+    text-align: right;
+    background-color: rgb(93, 85, 85);
+    font-size: small;
+    font-family: 'rubik';
+    text-align: right;
+    color: rgb(26, 168, 171);
+
+}
+.tablaajedrez {
+    width: 400px;
+    height: 400px;
+    margin: right:19%; 
+    background-color: rgb(174, 66, 66);
+}
+.bloquenegro {
+    background-color: black;
+    size
+}
+.bloqueblanco {
+    background-color: white;
+    size
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+   /* padding: 20px 100px 70px 100px;*/
+}
